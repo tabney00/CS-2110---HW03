@@ -117,6 +117,7 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(540,460)" to="(540,470)"/>
     <wire from="(380,320)" to="(380,450)"/>
+    <wire from="(390,230)" to="(390,240)"/>
     <wire from="(430,170)" to="(430,190)"/>
     <wire from="(430,190)" to="(430,210)"/>
     <wire from="(600,360)" to="(700,360)"/>
@@ -124,74 +125,50 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <wire from="(550,230)" to="(550,260)"/>
     <wire from="(410,370)" to="(410,400)"/>
     <wire from="(490,210)" to="(490,240)"/>
-    <wire from="(460,200)" to="(460,230)"/>
     <wire from="(70,320)" to="(110,320)"/>
-    <wire from="(330,230)" to="(330,260)"/>
+    <wire from="(310,210)" to="(310,240)"/>
     <wire from="(600,360)" to="(600,380)"/>
     <wire from="(700,360)" to="(700,380)"/>
     <wire from="(550,410)" to="(720,410)"/>
     <wire from="(410,370)" to="(440,370)"/>
-    <wire from="(300,260)" to="(330,260)"/>
+    <wire from="(310,210)" to="(340,210)"/>
     <wire from="(490,240)" to="(510,240)"/>
     <wire from="(320,280)" to="(320,320)"/>
     <wire from="(430,210)" to="(430,250)"/>
+    <wire from="(460,200)" to="(460,240)"/>
+    <wire from="(460,240)" to="(460,280)"/>
     <wire from="(800,400)" to="(800,460)"/>
     <wire from="(300,240)" to="(310,240)"/>
     <wire from="(550,350)" to="(550,410)"/>
     <wire from="(110,260)" to="(250,260)"/>
     <wire from="(60,320)" to="(70,320)"/>
-    <wire from="(330,230)" to="(460,230)"/>
+    <wire from="(390,240)" to="(460,240)"/>
     <wire from="(720,410)" to="(720,420)"/>
     <wire from="(320,320)" to="(380,320)"/>
     <wire from="(430,210)" to="(490,210)"/>
     <wire from="(380,450)" to="(430,450)"/>
-    <wire from="(410,180)" to="(410,190)"/>
     <wire from="(700,380)" to="(740,380)"/>
     <wire from="(450,380)" to="(450,400)"/>
     <wire from="(510,240)" to="(510,260)"/>
     <wire from="(530,200)" to="(530,230)"/>
     <wire from="(530,320)" to="(530,350)"/>
     <wire from="(420,250)" to="(420,280)"/>
-    <wire from="(310,180)" to="(410,180)"/>
     <wire from="(600,280)" to="(600,360)"/>
+    <wire from="(390,190)" to="(430,190)"/>
     <wire from="(530,230)" to="(550,230)"/>
     <wire from="(530,350)" to="(550,350)"/>
     <wire from="(720,420)" to="(740,420)"/>
     <wire from="(300,280)" to="(320,280)"/>
-    <wire from="(410,190)" to="(430,190)"/>
     <wire from="(450,380)" to="(600,380)"/>
     <wire from="(440,330)" to="(440,370)"/>
     <wire from="(420,250)" to="(430,250)"/>
     <wire from="(540,460)" to="(800,460)"/>
-    <wire from="(460,230)" to="(460,280)"/>
-    <wire from="(310,180)" to="(310,240)"/>
     <wire from="(460,200)" to="(530,200)"/>
     <wire from="(110,260)" to="(110,320)"/>
     <wire from="(600,280)" to="(930,280)"/>
-    <comp lib="0" loc="(930,280)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(430,450)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(530,320)" name="XOR Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(540,470)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(800,400)" name="XOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(530,170)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(440,330)" name="AND Gate">
       <a name="facing" val="south"/>
@@ -201,13 +178,38 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(70,320)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(530,170)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="1" loc="(250,260)" name="AND Gate">
       <a name="facing" val="west"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(70,320)" name="Pin">
+    <comp lib="1" loc="(800,400)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(340,210)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(430,450)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(540,470)" name="Pin">
+      <a name="facing" val="north"/>
       <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(930,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
     </comp>
   </circuit>
   <circuit name="adder">
@@ -217,13 +219,14 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(260,270)" to="(320,270)"/>
     <wire from="(440,270)" to="(500,270)"/>
-    <wire from="(220,220)" to="(220,230)"/>
     <wire from="(110,60)" to="(290,60)"/>
     <wire from="(260,160)" to="(260,180)"/>
+    <wire from="(250,180)" to="(250,260)"/>
     <wire from="(390,370)" to="(390,400)"/>
     <wire from="(430,390)" to="(430,420)"/>
     <wire from="(410,350)" to="(510,350)"/>
     <wire from="(340,380)" to="(340,410)"/>
+    <wire from="(220,220)" to="(220,250)"/>
     <wire from="(330,160)" to="(330,260)"/>
     <wire from="(310,160)" to="(330,160)"/>
     <wire from="(370,400)" to="(390,400)"/>
@@ -233,7 +236,6 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <wire from="(420,220)" to="(420,260)"/>
     <wire from="(220,250)" to="(240,250)"/>
     <wire from="(420,260)" to="(430,260)"/>
-    <wire from="(250,210)" to="(250,260)"/>
     <wire from="(500,220)" to="(510,220)"/>
     <wire from="(150,270)" to="(230,270)"/>
     <wire from="(450,190)" to="(450,240)"/>
@@ -251,9 +253,7 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <wire from="(370,400)" to="(370,410)"/>
     <wire from="(430,240)" to="(430,260)"/>
     <wire from="(330,290)" to="(330,370)"/>
-    <wire from="(220,230)" to="(220,250)"/>
     <wire from="(240,290)" to="(240,320)"/>
-    <wire from="(250,180)" to="(250,210)"/>
     <wire from="(310,380)" to="(340,380)"/>
     <wire from="(400,340)" to="(420,340)"/>
     <wire from="(430,190)" to="(450,190)"/>
@@ -269,51 +269,20 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <wire from="(250,160)" to="(260,160)"/>
     <wire from="(310,320)" to="(310,380)"/>
     <wire from="(240,320)" to="(310,320)"/>
-    <comp loc="(440,270)" name="carry"/>
-    <comp loc="(350,270)" name="carry"/>
-    <comp lib="0" loc="(110,60)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp loc="(260,270)" name="carry"/>
-    <comp lib="0" loc="(290,70)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(430,420)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(250,160)" name="Pin">
+    <comp lib="0" loc="(110,60)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(620,270)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp loc="(530,270)" name="carry"/>
-    <comp lib="0" loc="(310,160)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(500,220)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(370,410)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(520,190)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(360,200)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(420,220)" name="Pin">
+    <comp lib="0" loc="(250,160)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(400,410)" name="Pin">
@@ -322,10 +291,13 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
       <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(150,270)" name="Pin">
-      <a name="output" val="true"/>
+    <comp loc="(260,270)" name="carry"/>
+    <comp loc="(530,270)" name="carry"/>
+    <comp lib="0" loc="(500,220)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(420,220)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(340,410)" name="Pin">
       <a name="facing" val="north"/>
@@ -333,7 +305,35 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
       <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp loc="(350,270)" name="carry"/>
     <comp lib="0" loc="(430,190)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(520,190)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(150,270)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(370,410)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(440,270)" name="carry"/>
+    <comp lib="0" loc="(360,200)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(290,70)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(310,160)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
   </circuit>
@@ -372,13 +372,25 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
     <wire from="(680,20)" to="(680,70)"/>
     <wire from="(670,20)" to="(680,20)"/>
     <wire from="(680,70)" to="(690,70)"/>
+    <comp lib="0" loc="(120,80)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(270,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(120,80)" name="Pin">
-      <a name="facing" val="north"/>
+    <comp loc="(200,80)" name="adder"/>
+    <comp lib="0" loc="(230,20)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(190,140)" name="Pin">
+      <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="width" val="4"/>
       <a name="tristate" val="false"/>
       <a name="labelloc" val="east"/>
     </comp>
@@ -388,20 +400,8 @@ This file is intended to be loaded by Brandonsim.  Distributed as part of CS2110
       <a name="width" val="4"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(200,80)" name="adder"/>
-    <comp lib="0" loc="(190,140)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-      <a name="tristate" val="false"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="0" loc="(670,20)" name="Pin">
       <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(230,20)" name="Pin">
-      <a name="width" val="4"/>
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(160,20)" name="Pin">
